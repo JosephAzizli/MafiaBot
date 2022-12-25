@@ -41,8 +41,7 @@ class Role:
         global group_id
         if self.name == "Horgie":
             string = "DİQQƏT: " + player.name + " GÜNAHSIZDIR!\n"
-            bonus_string = choice(["Onlar vaxt keçirməyi sevirlər!",
-                                    "Onlar heç kəsi narahat eləmir!",
+            bonus_string = choice(["Onlar heç kəsi narahat eləmir!",
                                     "Kim onları mafia olmaqda ittiham edə bilər ki?",
                                     "Bunlardan zərər gələ bilər?",
                                     "Yetimə ba. Qarışqanı belə incitməz!"])
@@ -73,7 +72,7 @@ role_database['Cop'] = Role(name='Cop',
 role_database['Rolecop'] = Role(name='Rolecop',
     alignment='Innocent',
     info = "Sən DETEKTİVSƏN!\nGecə oyunçuların rolunu görə bilərsən. " \
-    "Qeyd: günahkar olub-olmadıqlarını görə bilmərsən(Necə detektivsən ee sən?) (so a powerless role would show up as Vanilla regardless of alignment, for example).\n" \
+    "Qeyd: günahkar olub-olmadıqlarını görə bilmərsən(Necə detektivsən ee sən?).\n" \
     "Bütün mafialar ölsə qazanarsan(Çox gözləyərsən).",
     has_night_action = True,
     has_day_action = False,
