@@ -12,7 +12,7 @@ from random import choice
 from random import randint
 import logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
-updater = Updater(token='./token.txt') #TOKEN REDACTED
+updater = Updater(token='5946373308:AAETYdqQP2iEUXdmjPuDQFYljn3FMLOKVTA') #TOKEN REDACTED
 dispatcher = updater.dispatcher
 
 ###FRIEND LIST
